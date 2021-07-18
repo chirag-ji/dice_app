@@ -5,7 +5,13 @@ void main() {
     home: Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.teal.shade100,
+        title: Text(
+          'Dices',
+          style: TextStyle(color: Colors.black),
+        ),
+        centerTitle: true,
       ),
+      backgroundColor: Colors.teal.shade200,
       body: DiceApp(),
     ),
   ));
